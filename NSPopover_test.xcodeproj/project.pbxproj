@@ -11,6 +11,8 @@
 		14801489270585D10038EE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14801488270585D10038EE61 /* Assets.xcassets */; };
 		1480148C270585D10038EE61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1480148A270585D10038EE61 /* MainMenu.xib */; };
 		1480148F270585D10038EE61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480148E270585D10038EE61 /* main.m */; };
+		148014982705878D0038EE61 /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148014972705878D0038EE61 /* PopoverViewController.m */; };
+		1480149A270588DB0038EE61 /* PopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14801499270588DB0038EE61 /* PopoverViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,9 @@
 		1480148D270585D10038EE61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1480148E270585D10038EE61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14801490270585D10038EE61 /* NSPopover_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSPopover_test.entitlements; sourceTree = "<group>"; };
+		148014962705878D0038EE61 /* PopoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		148014972705878D0038EE61 /* PopoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
+		14801499270588DB0038EE61 /* PopoverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopoverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,9 @@
 				1480148D270585D10038EE61 /* Info.plist */,
 				1480148E270585D10038EE61 /* main.m */,
 				14801490270585D10038EE61 /* NSPopover_test.entitlements */,
+				148014962705878D0038EE61 /* PopoverViewController.h */,
+				148014972705878D0038EE61 /* PopoverViewController.m */,
+				14801499270588DB0038EE61 /* PopoverViewController.xib */,
 			);
 			path = NSPopover_test;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 			files = (
 				14801489270585D10038EE61 /* Assets.xcassets in Resources */,
 				1480148C270585D10038EE61 /* MainMenu.xib in Resources */,
+				1480149A270588DB0038EE61 /* PopoverViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148014982705878D0038EE61 /* PopoverViewController.m in Sources */,
 				1480148F270585D10038EE61 /* main.m in Sources */,
 				14801487270585CE0038EE61 /* AppDelegate.m in Sources */,
 			);
