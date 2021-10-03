@@ -1,0 +1,14 @@
+{
+    CFBundleDevelopmentRegion = "$(DEVELOPMENT_LANGUAGE)";
+    CFBundleExecutable = "NSPopover_test";
+    CFBundleIconFile = "";
+    CFBundleIdentifier = "com.olc.NSPopover-test";
+    CFBundleInfoDictionaryVersion = "6.0";
+    CFBundleName = "NSPopover_test";
+    CFBundlePackageType = "$(PRODUCT_BUNDLE_PACKAGE_TYPE)";
+    CFBundleShortVersionString = "1.0";
+    CFBundleVersion = 1;
+    LSMinimumSystemVersion = "11.3";
+    NSMainNibFile = MainMenu;
+    NSPrincipalClass = NSApplication;
+}
